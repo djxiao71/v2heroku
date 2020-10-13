@@ -1,0 +1,26 @@
+{
+    "name":"V2Heroku",
+    "description":"Deploy V2Ray on Heroku",
+    "keywords":["V2Ray"],
+    "env":{
+        "VER":{
+            "description":"Core version",
+            "value":"4.25.1"
+        },
+        "PROTOCOL":{
+            "description":"Service protocol",
+            "value":"vmess"
+        },
+        "UUID":{
+            "description":"User UUID",
+            "value":"ad806487-2d26-4636-98b6-ab85cc8521f7"
+        },
+        "PATH":{
+            "description":"WsSettings path",
+            "value":""
+        }
+    },
+    "website":"https://ibcl.us/Heroku-V2Ray_20191014/",
+    "repository":"https://github.com/wizos/V2Heroku",
+    "stack":"container"
+}
