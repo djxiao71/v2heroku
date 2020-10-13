@@ -25,10 +25,10 @@
 
 ### 注意
 
-1. 部署VMess协议时，`alterId`为`64`。
-2. 服务端部署后，应`open app`，显示`Bad Request`，表示部署成功。
-3. 客户端可使用`Websocket`端口`80`，或`Websocket+TLS`端口`443`传输。
-4. 出于安全考量，除非使用 CDN，否则不要使用自定义域名，而使用 Heroku 分配的二级域名，以实现 V2Ray Websocket + TLS。
+> 1. 部署VMess协议时，`alterId`为`64`。
+> 2. 服务端部署后，应`open app`，显示`Bad Request`，表示部署成功。
+> 3. 客户端可使用`Websocket`端口`80`，或`Websocket+TLS`端口`443`传输。
+> 4. 出于安全考量，除非使用 CDN，否则不要使用自定义域名，而使用 Heroku 分配的二级域名，以实现 V2Ray Websocket + TLS。
 
 ## 参考
 
