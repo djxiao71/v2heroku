@@ -1,6 +1,6 @@
 {
     "name":"V2Ray",
-    "description":"Deploy V2Ray on Heroku",
+    "description":"Deploy V2Ray on Heroku.",
     "keywords":["V2Ray"],
     "env":{
         "VER":{
